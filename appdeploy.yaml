@@ -30,3 +30,6 @@
         url: "http://{{ ansible_host }}:8080/maven-web-application/"
         status_code: 200    
 ...
+
+---
+...
