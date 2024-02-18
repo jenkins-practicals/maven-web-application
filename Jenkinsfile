@@ -11,7 +11,7 @@ label '<label-name>'
 */
 
 options {
-  timestamps
+  timestamps()
   buildDiscarder logRotator(artifactDaysToKeepStr: '2', artifactNumToKeepStr: '2', daysToKeepStr: '2', numToKeepStr: '2')
 }
 
@@ -53,4 +53,8 @@ stage('upload artifact to nexus'){
 
 } //stages
 } //pipeline
+
+
+
+
 
